@@ -1,7 +1,7 @@
 #Dockerfile
 FROM scratch
-ADD centos-7ppc64le-docker.tar.xz /
-MAINTAINER lhpmain "lhpmain@126.com"    # lhpmain-mail
+ADD centos-7-docker.tar.xz /
+
 LABEL org.label-schema.schema-version="1.0" \
     org.label-schema.name="CentOS Base Image" \
     org.label-schema.vendor="CentOS" \
