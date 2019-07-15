@@ -9,7 +9,8 @@ LABEL org.label-schema.schema-version="1.0" \
     org.label-schema.license="GPLv2" \
     org.label-schema.build-date="20181204"
 
-CMD ["/bin/bash"]
+#CMD ["/bin/bash"]
+CMD ["/usr/sbin/init"]
 
 #update yum repository and install openssh server
 # RUN yum update -y
